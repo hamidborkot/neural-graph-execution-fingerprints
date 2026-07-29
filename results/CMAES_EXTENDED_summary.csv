@@ -1,0 +1,5 @@
+model,cmaes_extended_best_D,queries_used
+mobilenetv2,0.0236898618657961,817
+squeezenet,0.0097646943660541,817
+resnet18,0.0029389100987402,817
+efficientnet,0.0009918835089333,817

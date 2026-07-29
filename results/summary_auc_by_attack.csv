@@ -1,0 +1,17 @@
+attack,model,AUC_activation_D,AUC_timing_D
+backdoor,efficientnet,0.933333,0.665278
+backdoor,mobilenetv2,0.748611,0.316667
+backdoor,resnet18,0.790278,0.608333
+backdoor,squeezenet,0.863889,0.155556
+fgsm,efficientnet,0.808333,0.763889
+fgsm,mobilenetv2,0.9,0.565278
+fgsm,resnet18,0.869444,0.586111
+fgsm,squeezenet,0.943056,0.191667
+magnitude_pruning,efficientnet,0.627778,0.566667
+magnitude_pruning,mobilenetv2,0.527778,0.377778
+magnitude_pruning,resnet18,0.666667,0.372222
+magnitude_pruning,squeezenet,0.861111,0.033333
+structured_pruning,efficientnet,1.0,0.55
+structured_pruning,mobilenetv2,0.841667,0.366667
+structured_pruning,resnet18,1.0,0.475
+structured_pruning,squeezenet,1.0,0.333333

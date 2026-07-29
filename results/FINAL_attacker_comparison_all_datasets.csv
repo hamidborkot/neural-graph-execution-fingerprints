@@ -1,0 +1,17 @@
+model,dataset,random_walk_best_D,cmaes_fullparam_best_D,cmaes_wins
+mobilenetv2,cifar10,0.226067,0.062323,True
+mobilenetv2,tinyimagenet,0.017317,0.021172,False
+mobilenetv2,imagenetmini,0.044855,0.024957,True
+mobilenetv2,synthetic,0.04585,0.082669,False
+squeezenet,cifar10,0.0337,0.020756,True
+squeezenet,tinyimagenet,0.07301,0.017764,True
+squeezenet,imagenetmini,0.060101,0.018947,True
+squeezenet,synthetic,0.030957,0.045841,False
+resnet18,cifar10,0.055368,0.009386,True
+resnet18,tinyimagenet,0.200917,0.074747,True
+resnet18,imagenetmini,0.066421,0.095063,False
+resnet18,synthetic,0.015215,0.007059,True
+efficientnet,cifar10,0.014136,0.066725,False
+efficientnet,tinyimagenet,0.009809,0.028545,False
+efficientnet,imagenetmini,0.066776,0.007227,True
+efficientnet,synthetic,0.053196,0.081262,False

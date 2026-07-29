@@ -1,0 +1,17 @@
+dataset,model,timing_D,activation_D
+cifar10,efficientnet,1.466824,2531.896831
+cifar10,mobilenetv2,4.638986,12.173999
+cifar10,resnet18,0.107339,706.249732
+cifar10,squeezenet,1.372508,56193.733326
+imagenetmini,efficientnet,0.712939,480.061725
+imagenetmini,mobilenetv2,0.803597,3.454744
+imagenetmini,resnet18,1.631515,226.40982
+imagenetmini,squeezenet,1.094789,24875.159508
+synthetic,efficientnet,2.764173,1868.046311
+synthetic,mobilenetv2,1.224888,23.586822
+synthetic,resnet18,4.105657,972.933847
+synthetic,squeezenet,1.96212,37565.035465
+tinyimagenet,efficientnet,0.909904,1881.916598
+tinyimagenet,mobilenetv2,0.760107,6.896307
+tinyimagenet,resnet18,2.594069,421.36555
+tinyimagenet,squeezenet,0.662014,46711.364311

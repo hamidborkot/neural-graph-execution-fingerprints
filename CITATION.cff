@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Borkot Tulla
+    given-names: MD Hamid
+title: >-
+  Neural Graph Execution Fingerprints: Software-Only MLaaS Tamper Detection
+  via Dual-Channel Mahalanobis Signatures
+version: 1.0.0
+date-released: 2026-07-30
+url: "https://github.com/hamidborkot/neural-graph-execution-fingerprints"
+repository-code: "https://github.com/hamidborkot/neural-graph-execution-fingerprints"
+license: MIT
+abstract: >-
+  A software-only, zero-hardware MLaaS integrity verification framework that
+  detects model tampering, vendor substitution fraud, and adaptive adversarial
+  attacks using dual-channel Mahalanobis-distance signatures derived from ONNX
+  Runtime execution traces (timing_D) and PyTorch activation statistics
+  (activation_D). Runs entirely on Kaggle CPU-only. NDSS submission in preparation.
+keywords:
+  - MLaaS security
+  - model fingerprinting
+  - tamper detection
+  - execution entropy
+  - Mahalanobis distance
+  - ONNX Runtime
+  - adversarial robustness
+  - vendor fraud detection
+  - containerized AI security

@@ -1,0 +1,19 @@
+# Python dependencies for Neural Graph Execution Fingerprints
+# All pre-installed on Kaggle CPU notebooks (Python 3.12)
+# For local reproduction: pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+kaleido>=0.2.1
+
+# Quantization: torch.quantization.quantize_dynamic (included with PyTorch)
+# Datasets auto-downloaded via torchvision.datasets (CIFAR-10 etc.)

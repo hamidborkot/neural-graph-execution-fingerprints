@@ -1,0 +1,49 @@
+﻿Model,Dataset,Serving Type,activation\_D,timing\_D,Notes
+EfficientNet,cifar10,genuine\_premium,2.027,2.282,baseline
+EfficientNet,cifar10,int8\_quantized,**42.831**,**135.880**,fraud
+EfficientNet,cifar10,pruned\_50pct,**78.660**,1.978,fraud
+EfficientNet,imagenetmini,genuine\_premium,1.665,2.124,baseline
+EfficientNet,imagenetmini,int8\_quantized,**21.482**,**100.787**,fraud
+EfficientNet,imagenetmini,pruned\_50pct,**36.654**,3.527,fraud
+EfficientNet,synthetic,genuine\_premium,0.835,2.575,baseline
+EfficientNet,synthetic,int8\_quantized,**417.257**,**27.243**,fraud
+EfficientNet,synthetic,pruned\_50pct,**427.475**,1.020,fraud
+EfficientNet,tinyimagenet,genuine\_premium,2.211,1.767,baseline
+EfficientNet,tinyimagenet,int8\_quantized,**20.188**,**115.153**,fraud
+EfficientNet,tinyimagenet,pruned\_50pct,**31.672**,1.051,fraud
+MobileNetV2,cifar10,genuine\_premium,2.474,1.383,baseline
+MobileNetV2,cifar10,int8\_quantized,2.711,**195.143**,fraud (act below thresh)
+MobileNetV2,cifar10,pruned\_50pct,**17.379**,2.297,fraud
+MobileNetV2,imagenetmini,genuine\_premium,1.297,1.391,baseline
+MobileNetV2,imagenetmini,int8\_quantized,2.251,**88.289**,fraud
+MobileNetV2,imagenetmini,pruned\_50pct,**8.756**,1.027,fraud
+MobileNetV2,synthetic,genuine\_premium,1.252,1.194,baseline
+MobileNetV2,synthetic,int8\_quantized,**44.162**,**205.170**,fraud
+MobileNetV2,synthetic,pruned\_50pct,**170.043**,**10.687**,fraud
+MobileNetV2,tinyimagenet,genuine\_premium,2.281,1.177,baseline
+MobileNetV2,tinyimagenet,int8\_quantized,1.881,**223.107**,fraud
+MobileNetV2,tinyimagenet,pruned\_50pct,**11.629**,3.443,fraud
+ResNet18,cifar10,genuine\_premium,1.287,4.307,baseline
+ResNet18,cifar10,int8\_quantized,1.429,9.462,fraud (act below thresh)
+ResNet18,cifar10,pruned\_50pct,**9.593**,1.513,fraud
+ResNet18,imagenetmini,genuine\_premium,1.201,2.020,baseline
+ResNet18,imagenetmini,int8\_quantized,2.336,**16.956**,fraud
+ResNet18,imagenetmini,pruned\_50pct,3.694,1.844,fraud (act below thresh)
+ResNet18,synthetic,genuine\_premium,1.551,1.398,baseline
+ResNet18,synthetic,int8\_quantized,6.377,7.614,fraud (borderline)
+ResNet18,synthetic,pruned\_50pct,**81.553**,0.748,fraud
+ResNet18,tinyimagenet,genuine\_premium,2.510,0.810,baseline
+ResNet18,tinyimagenet,int8\_quantized,1.828,7.078,fraud (act below thresh)
+ResNet18,tinyimagenet,pruned\_50pct,**9.822**,1.485,fraud
+SqueezeNet,cifar10,genuine\_premium,2.854,0.555,baseline
+SqueezeNet,cifar10,int8\_quantized,**1.529**,**31.349**,fraud (act BELOW baseline!)
+SqueezeNet,cifar10,pruned\_50pct,**16.052**,2.209,fraud
+SqueezeNet,imagenetmini,genuine\_premium,1.094,1.285,baseline
+SqueezeNet,imagenetmini,int8\_quantized,3.076,**16.060**,fraud
+SqueezeNet,imagenetmini,pruned\_50pct,5.988,1.640,fraud (borderline)
+SqueezeNet,synthetic,genuine\_premium,1.785,2.512,baseline
+SqueezeNet,synthetic,int8\_quantized,**12.156**,**33.413**,fraud
+SqueezeNet,synthetic,pruned\_50pct,**293.422**,2.700,fraud
+SqueezeNet,tinyimagenet,genuine\_premium,2.079,1.440,baseline
+SqueezeNet,tinyimagenet,int8\_quantized,2.474,8.878,fraud (act below thresh)
+SqueezeNet,tinyimagenet,pruned\_50pct,**8.301**,1.641,fraud

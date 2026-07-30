@@ -1,0 +1,17 @@
+Model,Dataset,RandomWalk_best_D,CMAES_best_D,CMAES_wins,Ratio_CMA_RW,Notes
+mobilenetv2,cifar10,0.2261,0.0623,Yes,0.28,
+resnet18,cifar10,0.0554,0.0094,Yes,0.17,RW hit time cap ~95-97 queries
+squeezenet,tinyimagenet,0.0730,0.0178,Yes,0.24,
+efficientnet,imagenetmini,0.0668,0.0072,Yes,0.11,
+efficientnet,cifar10,0.0141,0.0667,No,4.72,
+resnet18,imagenetmini,0.0664,0.0951,No,1.43,RW hit time cap ~95-97 queries
+mobilenetv2,imagenetmini,0.0449,0.0250,Yes,0.56,
+resnet18,synthetic,0.0152,0.0071,Yes,0.46,RW hit time cap ~95-97 queries
+resnet18,tinyimagenet,0.2009,0.0747,Yes,0.37,RW hit time cap ~95-97 queries
+squeezenet,cifar10,0.0337,0.0208,Yes,0.62,
+squeezenet,imagenetmini,0.0601,0.0189,Yes,0.32,
+efficientnet,synthetic,0.0532,0.0813,No,1.53,
+efficientnet,tinyimagenet,0.0098,0.0285,No,2.91,
+mobilenetv2,synthetic,0.0458,0.0827,No,1.80,
+mobilenetv2,tinyimagenet,0.0173,0.0212,No,1.22,
+squeezenet,synthetic,0.0310,0.0458,No,1.48,

@@ -1,0 +1,13 @@
+Model,Dataset,Serving_type,timing_D,Notes
+efficientnet,cifar10,genuine_premium,2.282,baseline
+efficientnet,cifar10,int8_quantized,135.880,fraud case
+efficientnet,cifar10,pruned_50pct,1.978,fraud case
+mobilenetv2,cifar10,genuine_premium,1.383,baseline
+mobilenetv2,cifar10,int8_quantized,195.143,fraud case
+mobilenetv2,cifar10,pruned_50pct,2.297,fraud case
+resnet18,cifar10,genuine_premium,4.307,baseline
+resnet18,cifar10,int8_quantized,9.462,fraud case
+resnet18,cifar10,pruned_50pct,1.513,fraud case
+squeezenet,cifar10,genuine_premium,0.555,baseline
+squeezenet,cifar10,int8_quantized,31.349,fraud case
+squeezenet,cifar10,pruned_50pct,2.209,fraud case

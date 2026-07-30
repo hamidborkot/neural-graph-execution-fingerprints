@@ -1,0 +1,5 @@
+Model,eps_0.03_act_D,eps_0.50_act_D,eps_0.03_timing_D,eps_0.50_timing_D,Notes
+efficientnet,2.87,108.31,3.94,1.91,activation climbs steeply
+mobilenetv2,4.08,64.79,4.43,2.86,
+resnet18,3.84,78.87,4.03,5.34,
+squeezenet,4.00,50.63,3.94,3.44,

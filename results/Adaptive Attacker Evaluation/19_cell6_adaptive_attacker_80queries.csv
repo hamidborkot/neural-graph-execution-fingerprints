@@ -1,0 +1,5 @@
+Model,Start_D,Best_D_after_80_queries,Notes
+mobilenetv2,0.116,0.057,Smooth decay to zero
+squeezenet,3.990,0.146,Smooth decay to zero
+resnet18,8.765,0.396,Smooth decay to zero
+efficientnet,4.837,0.021,Smooth decay to zero

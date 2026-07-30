@@ -1,0 +1,13 @@
+Model,Dataset,Serving_type,activation_D,Notes
+efficientnet,cifar10,genuine_premium,2.027,baseline
+efficientnet,cifar10,int8_quantized,42.831,fraud case
+efficientnet,cifar10,pruned_50pct,78.660,fraud case
+mobilenetv2,cifar10,genuine_premium,2.474,baseline
+mobilenetv2,cifar10,int8_quantized,2.711,fraud case
+mobilenetv2,cifar10,pruned_50pct,17.379,fraud case
+resnet18,cifar10,genuine_premium,1.287,baseline
+resnet18,cifar10,int8_quantized,1.429,fraud case
+resnet18,cifar10,pruned_50pct,9.593,fraud case
+squeezenet,cifar10,genuine_premium,2.854,baseline
+squeezenet,cifar10,int8_quantized,1.529,fraud case (below baseline!)
+squeezenet,cifar10,pruned_50pct,16.052,fraud case

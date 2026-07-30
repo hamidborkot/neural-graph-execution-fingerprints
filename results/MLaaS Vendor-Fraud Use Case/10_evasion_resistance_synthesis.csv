@@ -1,0 +1,5 @@
+Model,activation_D_AUC_CI,timing_D_AUC_CI,Activation_evasion_resistant,Timing_evadable_by_padding,Hardware_note
+mobilenetv2,0.875 [0.625-1.000],0.875 [0.625-1.000],YES (invariant to padding),YES (increases monotonically),activation_D hardware-independent; timing_D CPU-dependent (no VNNI/AVX512)
+squeezenet,0.875 [0.625-1.000],0.906 [0.625-1.000],YES,YES,same
+resnet18,0.875 [0.625-1.000],0.688 [0.375-0.969],YES,YES,same
+efficientnet,1.000 [1.000-1.000],0.656 [0.344-1.000],YES,YES,same

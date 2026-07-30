@@ -1,0 +1,6 @@
+#,Experiment_file,Use_case,Key_result
+1,vendor_substitution_fraud_scores_v2.csv,Can customer detect vendor silently swapping fp32 for int8/50%-pruned?,Both fraud types elevate D-scores vs baseline across all 4 architectures
+2,vendor_fraud_detection_auc_v2.csv,"How reliable is detection, per architecture, per channel?",activation_D AUC 0.875-1.0; timing_D AUC 0.656-0.906
+3,vendor_fraud_auc_bootstrap_ci.csv,Is AUC statistically trustworthy at n=4 genuine?,activation_D CIs never drop below 0.625; timing_D CIs cross 0.5 for efficientnet/resnet18
+4,vendor_evasion_cost_padding_sweep_v2.csv,Can vendor evade detection by padding latency?,timing_D evadable; activation_D exactly invariant (0% change) across 0-50ms
+5,vendor_fraud_honest_report.csv,Paper-ready synthesis of primary vs secondary signal,"activation_D = primary, hardware-independent, evasion-resistant; timing_D = secondary, hardware-dependent, evadable"

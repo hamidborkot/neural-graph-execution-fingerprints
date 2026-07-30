@@ -1,0 +1,9 @@
+Model,Metric,AUC,CI_lower,CI_upper,CI_width,Bootstrap_std,Notes
+mobilenetv2,timing_D,0.8750,0.6250,1.0000,0.3750,0.1168,
+mobilenetv2,activation_D,0.8750,0.6250,1.0000,0.3750,0.1055,
+squeezenet,timing_D,0.9062,0.6250,1.0000,0.3750,0.1027,
+squeezenet,activation_D,0.8750,0.6250,1.0000,0.3750,0.1076,
+resnet18,timing_D,0.6875,0.3750,0.9688,0.5938,0.1602,CI crosses 0.5
+resnet18,activation_D,0.8750,0.6250,1.0000,0.3750,0.1082,
+efficientnet,timing_D,0.6562,0.3438,1.0000,0.6562,0.1633,CI crosses 0.5
+efficientnet,activation_D,1.0000,1.0000,1.0000,0.0000,0.0000,"Perfect AUC, zero variance"

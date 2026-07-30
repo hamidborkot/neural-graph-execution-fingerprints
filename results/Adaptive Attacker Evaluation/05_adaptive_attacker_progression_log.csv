@@ -1,0 +1,6 @@
+Iteration,Budget_RW,Budget_CMA,Subspace,Result,Problem_identified
+Cell 11 (v1),80,120,200-dim single layer,CMA loses on 2/4 models,"Budget too small, unfair subspace"
+Cell 11 fix,100,114,still restricted,Mixed,Still budget-limited
+Block A,N/A,817,still restricted,CMA D as low as 0.001-0.024,No RW comparison at matched budget
+Block B,150,154,full-param attempted,CMA MemoryError on naive full-cov,3.4M-dim covariance = 87.6 TiB
+FINAL,~100,~200,full-param via 40-dim random projection,"56% CMA win rate, all 4 datasets",Resolved -- cite this version

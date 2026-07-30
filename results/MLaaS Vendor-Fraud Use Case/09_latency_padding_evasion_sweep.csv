@@ -1,0 +1,5 @@
+Model,pad_0ms_timing_D,pad_1ms,pad_2ms,pad_5ms,pad_10ms,pad_20ms,pad_50ms,activation_D_all_pads,Notes
+mobilenetv2,184.111,193.679,201.315,227.210,261.004,324.256,550.039,2.062,activation invariant
+squeezenet,38.457,44.346,55.220,80.710,117.194,191.693,426.907,2.656,activation invariant
+resnet18,8.143,11.552,13.577,18.683,30.825,50.220,110.781,3.753,activation invariant
+efficientnet,144.813,146.786,148.363,157.773,176.784,212.829,320.109,41.707,activation invariant

@@ -1,0 +1,8 @@
+Attack,Mean,Median,IQR_q25,IQR_q75,Outliers_IQR_flag,Notes
+fgsm_0.03,6.22,4.49,3.16,5.31,YES: 16.391,Outlier confirmed
+fgsm_0.1,2.77,2.47,2.14,3.65,none,
+fgsm_0.3,3.90,4.17,3.75,4.26,none,
+fgsm_0.5,11.69,3.93,3.81,20.86,none (bimodal),"Huge IQR, bimodal distribution"
+backdoor_20px,1.98,2.22,1.29,2.48,none,
+backdoor_50px,0.97,1.26,0.24,1.42,none,
+backdoor_112px,3.08,3.24,3.18,3.79,none,

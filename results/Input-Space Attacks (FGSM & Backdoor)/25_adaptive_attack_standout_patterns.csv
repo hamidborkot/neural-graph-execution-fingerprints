@@ -1,0 +1,4 @@
+Model,Dataset,Pattern,Notes
+resnet18,synthetic,FGSM median D climbs to 9.9-14.0 -- strongest detection signal in whole project,Possible artifact of pure Gaussian noise input
+squeezenet,tinyimagenet,FGSM median D stays 0.15-0.77 -- weakest detection surface,Consistent with Tier 3 claim
+efficientnet,cifar10,"Detection signal (median D ~5.5-6.5) stable across epsilon, suggesting saturation",Architecture-dependent saturation

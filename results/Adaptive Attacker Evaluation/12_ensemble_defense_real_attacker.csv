@@ -1,0 +1,5 @@
+Model,real_timing_D,real_activation_D,real_ensemble_D,Threshold,pct_threshold_used,Evaded,Notes
+mobilenetv2,0.16,1.66,1.21,5.75,21.0%,Yes,
+squeezenet,1.17,1.99,1.74,6.12,28.5%,Yes,
+resnet18,0.52,1.76,1.39,5.42,25.6%,Yes,
+efficientnet,1.28,3.26,2.66,5.92,45.0%,Yes,"Thin margin, stress-tested with CMA-ES"

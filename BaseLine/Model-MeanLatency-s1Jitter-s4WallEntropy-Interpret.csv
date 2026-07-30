@@ -1,0 +1,5 @@
+"Model","Mean Latency","s1 (Jitter)","s4 (Wall Entropy)","Interpretation"
+"SqueezeNet","~9.5ms","0.058–0.074","2.41–2.85","Fastest, highest jitter — fire modules cause irregular scheduling"
+"MobileNetV2","~21.6ms","0.045–0.048","2.56–2.78","Depthwise convs, moderate jitter"
+"ResNet18","~37.7ms","0.028–0.038","2.47–2.78","Lower jitter — larger, steadier compute"
+"EfficientNet","~92.2ms","0.025–0.030","2.56–2.73","Slowest, most stable timing — compute-bound saturates the core"

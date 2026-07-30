@@ -1,0 +1,13 @@
+File,Rows,Role_in_paper
+NDSS_FULL_RESULTS.xlsx,6 sheets,Primary results workbook -- supplementary material
+FINAL_attacker_comparison_all_datasets.csv,16,"Section 5, Adversarial Evaluation"
+FINAL_struct_prune_generalization_deconfounded.csv,16,"Section 4, Detection Sensitivity"
+struct_prune_multi_arch.csv,36,"Full prune-ratio sweep, supplementary"
+fgsm_all_datasets.csv / backdoor_all_datasets.csv,64 + 64,"Section 5, input-space attacks"
+attack_manifest.csv,—,Reproducibility appendix (checkpoint log only)
+vendor_substitution_fraud_scores_v2.csv,48,Vendor-fraud case study
+vendor_fraud_detection_auc_v2.csv,8,Vendor-fraud AUC per channel
+vendor_fraud_auc_bootstrap_ci.csv,8,Vendor-fraud CI
+vendor_evasion_cost_padding_sweep_v2.csv,28,Padding-evasion sweep
+vendor_fraud_honest_report.csv,4,Paper synthesis
+"master CSV (adaptive/prune/deployment, 360 rows)",360,Raw data appendix

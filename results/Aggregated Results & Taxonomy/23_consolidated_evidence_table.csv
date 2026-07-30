@@ -1,0 +1,6 @@
+Experiment,Security_use_case,Best_metric,NDSS_narrative_contribution
+Shape-change ablation,Root-cause taxonomy of what timing channel can/can't see,"Timing D: 17.90 (structured) vs 1.82 (magnitude), same ratio","Causal, not correlational, mechanism -- methodological contribution"
+Cross-dataset generalization,Detector validity beyond one model/dataset,activation_D up to 56193.7 (squeezenet/cifar10) vs timing_D 1.37,Generalizability across 16 configurations
+Attack-family AUC,Discriminative power per attack type,"activation_D AUC 0.960 (structured pruning), 0.880 (FGSM)",Broad-spectrum superset detector
+Adaptive attacker (CMA-ES vs RW),"Real adversary, not static tampering",56% CMA-ES win rate; ensemble margin 21-45% of threshold,Directly answers 'no real attacker' reviewer critique
+Vendor substitution fraud,Real MLaaS economic-fraud threat model,activation_D AUC 1.0 (EfficientNet); 0% variance under padding,Concrete deployable use case with evasion-resistance proof

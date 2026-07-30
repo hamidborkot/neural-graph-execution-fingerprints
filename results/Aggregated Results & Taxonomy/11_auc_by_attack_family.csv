@@ -1,0 +1,5 @@
+Attack_family,Mean_AUC_activation_D,Mean_AUC_timing_D,Notes
+structured_pruning,0.960,0.431,Structured pruning nearly perfectly separable
+fgsm,0.880,0.527,
+backdoor,0.834,0.436,
+magnitude_pruning,0.671,0.338,

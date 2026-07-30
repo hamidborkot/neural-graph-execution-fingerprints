@@ -1,0 +1,4 @@
+Tier,Defining_property,Examples,Timing_channel,Activation_channel
+1. Shape/topology-changing,Alters tensor dimensions or graph structure,"Model replacement, quantization scheme change, structured pruning","Strong, stable, scales with magnitude (D: 7-3000s+)",Strong (D: 100s-1000s+)
+2. Weight-value only,"Same shape, different weight values (sparse)",Magnitude pruning,"Borderline (~75% detection at D=3; mean D≈4-6, right at noise floor)",Strong (D: 1000s+)
+3. Input-value only,"Same shape/weights, different inputs","FGSM, backdoor triggers",Not reliably detected (median D<5 under calibrated threshold; mean inflated by outliers),Strong (D: 1000s+)

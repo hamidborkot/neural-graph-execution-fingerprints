@@ -1,0 +1,8 @@
+"Research line","Uses timing/execution signal?","Defensive (integrity) goal?","Hardware-free?","Container/cloud-native?"
+"Duddu et al., timing extraction arxiv","✅","❌ (offensive)","✅","❌"
+"EdgeThemis dro.deakin","Partial","✅","Unclear","❌ (bare-metal edge)"
+"Secure TinyML attestation scribd","❌","✅","❌ (needs EAT/hardware identity)","❌"
+"PUF-based IoT trust survey arxiv","❌","✅","❌ (hardware-rooted)","❌"
+"ViT adversarial signatures arxiv","❌ (activation-based)","✅","✅","❌"
+"Merkle-tree log integrity arxiv","❌","✅","✅","Partial"
+"Your work","✅","✅","✅","✅"
